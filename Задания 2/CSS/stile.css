@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.body{
+}
+.content{
+	border: 1px solid #111111;
+	background: #9C9C9C;
+	padding: 20px;
+	margin: 160px;
+	height: 448px;
+	width: 400px;
+	left: -330px;
+	top: -200px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+.head{
+	padding: 10px;
+	border-bottom: 1px solid #ffffff;
+	font-size: 32px;
+}
+.email{
+	min-height: 26px;
+	min-width: 360px;
+	margin: 10px 0 10px 0;
+}
+.passvord{
+	min-height: 26px;
+	min-width: 175px;
+	margin: 10px 0 10px 0;
+}
+.passvord-2{
+	min-height: 26px;
+	min-width: 175px;
+	margin: 0 0 0 185px;
+}
+.name{
+	min-height: 26px;
+	min-width: 175px;
+	margin: 10px 0 10px 0;
+}
+.age{
+	min-height: 26px;
+	min-width: 175px;
+	margin: 10px 0 10px 0;
+}
